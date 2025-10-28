@@ -67,4 +67,4 @@ Las metaclases son herramientas esenciales en el desarrollo de *frameworks* de a
 ### Fundamento Teórico
 
 Desde una perspectiva formal, este mecanismo representa la **autorreferencia estructural**. La metaclase opera en un nivel superior, tratando a la definición de la clase como su propio dato (similar a la Aritmetización de la Sintaxis en la lógica matemática). Esto se relaciona con los conceptos de **Generación Dinámica de Código** y **Abstracción de Nivel Superior**.
-```
+```git 

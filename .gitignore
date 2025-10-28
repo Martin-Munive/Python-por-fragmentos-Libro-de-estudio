@@ -5,4 +5,4 @@ venv/
 __pycache__/
 *.pyc
 .vscode/
-site/ # Directorio generado por mkdocs build
+site/ # Directorio generado por mkdocs buildg
