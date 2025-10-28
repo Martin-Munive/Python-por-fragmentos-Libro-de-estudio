@@ -1,0 +1,55 @@
+# Archivo: .github/workflows/mkdocs.yml
+name: deploy-mkdocs
+
+on:
+  # Se ejecuta cuando hay un push a la rama 'main'
+  push:
+    branches:
+      - main
+  # Permite la ejecución manual del flujo de trabajo desde la pestaña Actions
+  workflow_dispatch:
+
+# Define permisos necesarios para que GitHub Actions pueda publicar en Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Agrupa todos los trabajos bajo un solo ejecutor (deploy)
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Necesario para el historial de MkDocs
+
+      # Configura Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # Instala dependencias (basado en tu requirements.txt)
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Configura GitHub Pages (ambiente de despliegue)
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+
+      # Construye el sitio MkDocs (genera la carpeta 'site')
+      - name: Build MkDocs Site
+        run: mkdocs build
+
+      # Sube el artefacto (la carpeta 'site') al ambiente de Pages
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site'
+
+      # Despliega el artefacto en GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
