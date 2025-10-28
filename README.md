@@ -8,7 +8,7 @@ El objetivo de este proyecto es desglosar más de 700 fragmentos de código Pyth
 
 Para una mejor experiencia de lectura, con navegación completa, índice de contenido y funcionalidad de búsqueda, visita la versión publicada en **GitHub Pages**.
 
-> **[Ir al Libro Publicado Aquí](https://martin-munive.github.io/Python-por-fragmentos-Libro-de-estudio/])**
+> **[Ir al Libro Publicado Aquí](https://martin-munive.github.io/Python-por-fragmentos-Libro-de-estudio/)**
 
 
 ## Estructura del Repositorio
