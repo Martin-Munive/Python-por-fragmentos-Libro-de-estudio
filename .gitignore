@@ -1,0 +1,8 @@
+# Entorno Python Virtual
+venv/
+# Caché de MkDocs
+.DS_Store
+__pycache__/
+*.pyc
+.vscode/
+site/ # Directorio generado por mkdocs build

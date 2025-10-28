@@ -1,0 +1,26 @@
+# Configuración Principal
+site_name: Python por fragmentos (Libro de estudio)
+site_description: Colección comentada de códigos Python para aprendizaje avanzado.
+repo_url: https://github.com/SU_USUARIO/Python-Code-Almanac # Reemplazar con URL real
+edit_uri: edit/main/docs/ # Permite editar directamente en GitHub
+
+# Configuración del Tema
+theme:
+  name: material
+  language: es
+  palette:
+    scheme: slate # Tema oscuro
+    primary: teal
+    accent: light blue
+  features:
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.annotate # Para explicaciones de código
+
+# Estructura del Índice (Nav)
+nav:
+  - Inicio: index.md
+  - Introducción: index.md # Se usará la misma página por ahora.
+  - I. Programación Avanzada:
+    - 1. Metaprogramación: chapters/01_metaprogramacion/day_700_metaclases.md
