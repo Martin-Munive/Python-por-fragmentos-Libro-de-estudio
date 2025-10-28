@@ -20,4 +20,5 @@ Para una mejor experiencia de lectura, con navegación completa, índice de cont
 | `mkdocs.yml` | Configuración del sitio web y del índice de navegación. |
 
 ---
+---
 **[Ver el Primer Fragmento (PY-0001: Metaclases)](./docs/chapters/01_metaprogramacion/py_0001_metaclases.md)**
