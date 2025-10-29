@@ -93,29 +93,3 @@ Este fragmento establece el pilar de la Programación Orientada a Objetos (POO):
 
 El concepto se relaciona con la **Teoría de Conjuntos**. La **Clase** es el conjunto que define las propiedades posibles. La **Instancia** es un elemento específico de ese conjunto. Un atributo de clase es un **parámetro** de todo el conjunto, mientras que un atributo de instancia es un **valor** único para ese elemento individual, lo que permite la herencia y la individualización de datos de manera eficiente en la memoria.
 ```
-
-### **Plan B (Si el Problema No es el Archivo)**
-
-Si después de copiar y pegar este bloque perfectamente formateado y hacer el *push*, el código sigue siendo gris, la falla **no está en el archivo `.md`**, sino en el `mkdocs.yml` que no activa la extensión de resaltado.
-
-**Verificación Adicional en `mkdocs.yml`:**
-
-Abre tu `mkdocs.yml` y asegúrate de que tiene la sección `markdown_extensions` y `plugins` correctamente configurada para el resaltado:
-
-```yaml
-# ...
-# Configuración del Tema
-theme:
-  name: material
-# ...
-# Verifica que estas líneas estén presentes. Pygments es el resaltador
-markdown_extensions:
-  - fenced_code
-  - codehilite
-
-# O más avanzado para MkDocs Material (chequea si esta sección está en tu archivo)
-plugins:
-  - search
-  - content
-
-```
