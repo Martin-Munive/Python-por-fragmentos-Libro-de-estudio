@@ -1,9 +1,11 @@
+
 ```markdown
 # PY-0001: La Diferencia Fundamental: Clases vs. Instancias
 
-| ID | Tópico Principal | Dificultad |
-| :--- | :--- | :--- |
-| PY-0001 | POO - Clases y Objetos | Básico |
+### 📋 Metadatos
+**ID:** PY-0001
+**Tópico Principal:** POO - Clases y Objetos
+**Dificultad:** Básico
 
 ---
 
@@ -44,7 +46,7 @@ print(f"Rol en la CLASE (Plantilla): {Usuario.rol}")
 
 ## 2. Salida Esperada
 
-```
+```console
 Nombre de Alice: Alice
 Nombre de Bob: Bob
 --------------------
@@ -88,7 +90,7 @@ Este fragmento establece el pilar de la Programación Orientada a Objetos (POO):
 *   **Modelado de Datos (Web/APIs):** Toda aplicación de *backend* (como Django o Flask) usa clases para modelar usuarios, productos u órdenes. El atributo de clase puede ser un valor por defecto (`estatus = 'Activo'`), y los atributos de instancia son los datos únicos de la base de datos (nombre, ID, fecha de compra).
 *   **Diseño de Componentes:** Permite crear una estructura base con valores predefinidos que pueden ser sobrescritos por la configuración específica de cada componente (ej. `Componente.velocidad_default = 10` y luego `mi_componente.velocidad = 5`).
 
-### Fundamento Teórico (NEUMANN)
+### Fundamento Teórico
 
 El concepto se relaciona con la **Teoría de Conjuntos**. La **Clase** es el conjunto que define las propiedades posibles. La **Instancia** es un elemento específico de ese conjunto. Un atributo de clase es un **parámetro** de todo el conjunto, mientras que un atributo de instancia es un **valor** único para ese elemento individual, lo que permite la herencia y la individualización de datos de manera eficiente en la memoria.
 ```
