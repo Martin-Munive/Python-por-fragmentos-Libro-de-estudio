@@ -18,9 +18,19 @@ theme:
     - search.highlight
     - content.code.annotate # Para explicaciones de código
 
+# ... (parte superior sin cambios)
+
 # Estructura del Índice (Nav)
 nav:
   - Inicio: index.md
-  - Introducción: index.md # Se usará la misma página por ahora.
-  - I. Programación Avanzada:
-    - 1. Metaprogramación: chapters/01_metaprogramacion/day_700_metaclases.md
+  - Introducción: index.md
+  - I. Fundamentos de la POO (Básico-Intermedio):
+    - 1. Clases y Objetos:
+      - Conceptos Básicos: chapters/00_fundamentos_poo/py_0001_clase_vs_instancia.md
+    - 2. La Clase 'type()' y Metaclases: # Reservado para PY-0002 y PY-0003
+  - II. Programación Avanzada:
+    - 1. Metaprogramación:
+      - Inyección de Atributos: chapters/02_programacion_avanzada/py_0004_metaclases.md
+    - 2. Decoradores y Resiliencia:
+      - Caching Simple: chapters/02_programacion_avanzada/py_0005_caché_simple.md
+      - Manejo de Errores: chapters/02_programacion_avanzada/py_0006_manejo_errores.md
