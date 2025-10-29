@@ -1,9 +1,9 @@
 ```markdown
 # PY-0001: La Diferencia Fundamental: Clases vs. Instancias
 
-| ID | Título | Dificultad | Tópico Principal |
-| :--- | :--- | :--- | :--- |
-| PY-0001 | La Diferencia Fundamental: Clases vs. Instancias | Básico | Programación Orientada a Objetos (POO) |
+| ID | Tópico Principal | Dificultad |
+| :--- | :--- | :--- |
+| PY-0001 | POO - Clases y Objetos | Básico |
 
 ---
 
