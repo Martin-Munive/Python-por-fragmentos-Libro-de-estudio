@@ -21,4 +21,3 @@ Para una mejor experiencia de lectura, con navegación completa, índice de cont
 
 ---
 ---
-**[Ver el Primer Fragmento (PY-0001: Metaclases)](./docs/chapters/01_metaprogramacion/py_0001_metaclases.md)**
