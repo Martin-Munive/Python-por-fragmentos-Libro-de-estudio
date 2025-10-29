@@ -1,5 +1,3 @@
-
-```markdown
 # PY-0001: La Diferencia Fundamental: Clases vs. Instancias
 
 ### 📋 Metadatos
@@ -10,7 +8,6 @@
 ---
 
 ## 1. Código Fuente
-```
 
 ```python
 class Usuario:
