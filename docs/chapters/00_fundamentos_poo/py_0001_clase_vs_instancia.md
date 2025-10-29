@@ -1,3 +1,4 @@
+
 ```markdown
 # PY-0001: La Diferencia Fundamental: Clases vs. Instancias
 
@@ -92,4 +93,5 @@ Este fragmento establece el pilar de la Programación Orientada a Objetos (POO):
 ### Fundamento Teórico
 
 El concepto se relaciona con la **Teoría de Conjuntos**. La **Clase** es el conjunto que define las propiedades posibles. La **Instancia** es un elemento específico de ese conjunto. Un atributo de clase es un **parámetro** de todo el conjunto, mientras que un atributo de instancia es un **valor** único para ese elemento individual, lo que permite la herencia y la individualización de datos de manera eficiente en la memoria.
-```
+
+---

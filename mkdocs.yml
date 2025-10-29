@@ -18,6 +18,13 @@ theme:
     - search.highlight
     - content.code.annotate
 
+# Sección de Extensiones de Markdown
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - fenced_code
+  - tables
+
 # Estructura del Índice (Nav) - ¡Ajustado a tu estructura local!
 nav:
   - Inicio: index.md
