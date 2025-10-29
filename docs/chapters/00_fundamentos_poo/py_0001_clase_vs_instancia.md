@@ -10,6 +10,7 @@
 ---
 
 ## 1. Código Fuente
+```
 
 ```python
 class Usuario:
@@ -55,6 +56,7 @@ Rol de Bob (modificado): Administrador
 Rol en la CLASE (Plantilla): Visitante
 ```
 
+```markdown
 ---
 
 ## 3. Análisis Detallado (Conceptos Fundamentales)
