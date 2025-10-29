@@ -1,36 +1,33 @@
 # Configuración Principal
 site_name: Python por fragmentos (Libro de estudio)
 site_description: Colección comentada de códigos Python para aprendizaje avanzado.
-repo_url: https://github.com/SU_USUARIO/Python-Code-Almanac # Reemplazar con URL real
-edit_uri: edit/main/docs/ # Permite editar directamente en GitHub
+repo_url: https://github.com/martin-munive/Python-por-fragmentos-Libro-de-estudio # Ajustado con tu URL
+edit_uri: edit/main/docs/
 
 # Configuración del Tema
 theme:
   name: material
   language: es
   palette:
-    scheme: slate # Tema oscuro
+    scheme: slate
     primary: teal
     accent: light blue
   features:
     - navigation.expand
     - search.suggest
     - search.highlight
-    - content.code.annotate # Para explicaciones de código
+    - content.code.annotate
 
-# ... (parte superior sin cambios)
-
-# Estructura del Índice (Nav)
+# Estructura del Índice (Nav) - ¡Ajustado a tu estructura local!
 nav:
   - Inicio: index.md
   - Introducción: index.md
-  - I. Fundamentos de la POO (Básico-Intermedio):
+  - I. Fundamentos de la POO (Básico a Intermedio):
     - 1. Clases y Objetos:
       - Conceptos Básicos: chapters/00_fundamentos_poo/py_0001_clase_vs_instancia.md
-    - 2. La Clase 'type()' y Metaclases: # Reservado para PY-0002 y PY-0003
+    - 2. La Clase 'type()':
+      - La Clase es un Objeto: chapters/00_fundamentos_poo/py_0002_la_clase_es_un_objeto.md
   - II. Programación Avanzada:
     - 1. Metaprogramación:
-      - Inyección de Atributos: chapters/02_programacion_avanzada/py_0004_metaclases.md
-    - 2. Decoradores y Resiliencia:
-      - Caching Simple: chapters/02_programacion_avanzada/py_0005_caché_simple.md
-      - Manejo de Errores: chapters/02_programacion_avanzada/py_0006_manejo_errores.md
+      - Inyección de Atributos: chapters/01_programacion_avanzada/py_0004_metaclases.md
+    # 2. Decoradores (Se añadirán PY-0005 y PY-0006 después del 0003)
