@@ -1,5 +1,5 @@
 # Configuración Principal
-site_name: Python por fragmentos (Libro de estudio)
+site_name: Python por fragmentos
 site_description: Colección comentada de códigos Python para aprendizaje avanzado.
 repo_url: https://github.com/martin-munive/Python-por-fragmentos-Libro-de-estudio # Ajustado con tu URL
 edit_uri: edit/main/docs/
@@ -18,16 +18,21 @@ theme:
     - search.highlight
     - content.code.annotate
 
-# Sección de Extensiones de Markdown
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
+  - admonition
+  - attr_list
   - fenced_code
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - tables
 
-# Estructura del Índice (Nav) - ¡Ajustado a tu estructura local!
 nav:
   - Inicio: index.md
+  - Auditoría editorial inicial: editorial_audit.md
   - Introducción: index.md
   - I. Fundamentos de la POO (Básico a Intermedio):
     - 1. Clases y Objetos:

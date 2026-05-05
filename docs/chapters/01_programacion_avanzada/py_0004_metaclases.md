@@ -1,4 +1,3 @@
-```markdown
 # PY-0001: Creación Dinámica de Atributos con Metaclases
 
 | ID | Título | Dificultad | Tópico Principal |
